@@ -45,7 +45,7 @@ bool isShowSticker = false;
                     alignment: Alignment.topRight,
                     nip: BubbleNip.rightTop,
                     color: const Color.fromRGBO(225, 255, 199, 1.0),
-                    child: const Text('Hello, World!', textAlign: TextAlign.right),
+                    child: const Text('Hello, World', textAlign: TextAlign.right),
                   ),
                   Bubble(
                     margin: const BubbleEdges.only(top: 10),
