@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_tutorial/helper/constants.dart';
+import 'package:tiktok/helper/constants.dart';
 
-import 'package:tiktok_tutorial/widgets/custom_icon.dart';
+import 'package:tiktok/widgets/custom_icon.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

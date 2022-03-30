@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/helper/constants.dart';
-import 'package:tiktok_tutorial/models/video.dart';
+import 'package:tiktok/helper/constants.dart';
+import 'package:tiktok/models/video.dart';
 import 'package:video_compress/video_compress.dart';
 
 class UploadVideoController extends GetxController {

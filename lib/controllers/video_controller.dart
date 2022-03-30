@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/helper/constants.dart';
-import 'package:tiktok_tutorial/models/video.dart';
+import 'package:tiktok/helper/constants.dart';
+import 'package:tiktok/models/video.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoController extends GetxController {

@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:tiktok_tutorial/views/home_screen.dart';
+import 'package:tiktok/views/home_screen.dart';
 
 import '../helper/constants.dart';
 

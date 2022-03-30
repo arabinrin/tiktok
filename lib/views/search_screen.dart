@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_tutorial/controllers/search_controller.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/models/user.dart';
-import 'package:tiktok_tutorial/views/profile_screen.dart';
+import 'package:tiktok/controllers/search_controller.dart';
+import 'package:tiktok/models/user.dart';
+import 'package:tiktok/views/profile_screen.dart';
+
 
 class SearchScreen extends StatelessWidget {
   SearchScreen({Key? key}) : super(key: key);

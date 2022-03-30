@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_tutorial/helper/constants.dart';
-import 'package:tiktok_tutorial/controllers/video_controller.dart';
-import 'package:tiktok_tutorial/views/comment_screen.dart';
 import 'package:get/get.dart';
+import 'package:tiktok/controllers/video_controller.dart';
+import 'package:tiktok/helper/constants.dart';
+import 'package:tiktok/views/comment_screen.dart';
+import 'package:tiktok/widgets/circle_animation.dart';
+import 'package:tiktok/widgets/video_player_iten.dart';
 
-import 'package:tiktok_tutorial/widgets/circle_animation.dart';
-
-import 'package:tiktok_tutorial/widgets/video_player_iten.dart';
 
 class VideoScreen extends StatelessWidget {
   VideoScreen({Key? key}) : super(key: key);
@@ -65,7 +64,7 @@ class VideoScreen extends StatelessWidget {
                   image: NetworkImage(profilePhoto),
                   fit: BoxFit.cover,
                 ),
-              ))
+              ),),
         ],
       ),
     );

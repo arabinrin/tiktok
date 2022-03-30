@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/views/update_image_screen.dart';
 
 import '../helper/constants.dart';
 import 'home_screen.dart';
